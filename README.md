@@ -1,6 +1,6 @@
 # compress_png.ps1
 
-A PowerShell script to batch‑optimize PNG images using oxipng. It recursively scans a folder for .png files, writes optimized copies into a `compressed` subfolder (preserving structure), and skips anything already inside that folder.
+A PowerShell script to batch‑optimize PNG images using [oxipng](https://github.com/oxipng/oxipng). It recursively scans a folder for .png files, writes optimized copies into a `compressed` subfolder (preserving structure), and skips anything already inside that folder.
 
 ---
 
@@ -20,7 +20,7 @@ A PowerShell script to batch‑optimize PNG images using oxipng. It recursively 
 ## 🧩 Requirements
 
 - PowerShell 7+
-- oxipng available in PATH or placed next to the script
+- [oxipng](https://github.com/oxipng/oxipng) available in PATH or placed next to the script
 
 ---
 
